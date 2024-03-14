@@ -1,0 +1,179 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.color {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    margin: 15px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.color:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+#rojo {
+    background-color: #ff5733;
+}
+
+#verde {
+    background-color: #28a745;
+}
+
+#azul {
+    background-color: #007bff;
+}
+
+#amarillo {
+    background-color: #ffc107;
+}
+
+#empezar {
+    background-color: #5f9ea0;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 50px;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    color: #fff;
+    border: 2px solid #5f9ea0;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+#empezar:hover {
+    background-color: #333;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+#general {
+    margin-top: 50px;
+    position: relative;
+}
+
+#puntuacion {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translateX(-50%);
+    font-size: 1.2em;
+    color: #333;
+}
+
+#titulo {
+    font-size: 2em;
+    border: none;
+    background: none;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    cursor: default;
+}
+
+body{
+    text-align: center;
+    background-color: white;
+    margin: 0;
+}
+
+#general{
+    margin-top: 50px;
+    position:relative
+}
+
+#puntuacion{
+    position: absolute;
+    top: 10%;
+    right: 25%;
+    font-size: 18%;
+}
+
+#azul{
+    background-color: blue;
+}
+
+#rojo{
+    background-color: red;
+}
+
+#verde{
+    background-color: green;
+}
+
+#amarillo{
+    background-color: yellow;
+}
+
+.color{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: none;
+    margin: 15px;
+}
+
+#empezar{
+    background-color: chocolate;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+#empezar:hover{
+    background-color: black;
+    color: white;
+}
+
+#reglas{
+    background-color: red;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: 10%;
+    color: white;
+}
+
+#reglas:hover{
+    background-color: white;
+    color: black;
+}
+
+p{
+    margin: 0 auto;
+    background-color: grey;
+    width: 25%;
+    align-content: center;
+    padding: 10px
+}
+
+#contenedorReglas{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 35px;
+}
+
+#titulo{
+    border: none;
+    background: none;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    cursor: default;
+}
+
