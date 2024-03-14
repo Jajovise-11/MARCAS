@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+#idiomas {
+    margin: 10px;
+}
+
+button{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+#general{
+    margin-top: 20px;
+    text-align: center;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Sheldon</title>
+</head>
+<script>
+    // Los puntos con los que empiezas tu y la CPU
+    var puntosJ = 0, puntosC = 0;
+
+    const objetos = ['papel', 'tijeras', 'lagarto', 'spok', 'piedra'];
+
+    // opciones de quien gana y quien pierde en cada objeto
+    while (puntosJ + puntosC < 5) {
+
+        var objetoJugador;
+        var objetoMaquina;
+
+        objetoJugador = prompt('Dime que objeto quieres usar [papel, tijeras, piedra, lagarto, spok]');
+
+        var eleccionMaquina = Math.floor(Math.random() * objetos.length);
+        objetoMaquina = objetos[eleccionMaquina];
+
+        if (objetoJugador != objetoMaquina) {
+            if(objetoJugador == 'piedra') {
+                if(objetoMaquina == 'tijeras' || objetoMaquina == 'lagarto' ){
+                    puntosJ++;
+                }
+                else {
+                    puntosC++;
+                }
+            }
+            
+            if(objetoJugador == 'papel') {
+                if(objetoMaquina == 'piedra' || objetoMaquina == 'spok' ){
+                    puntosJ++;
+                }
+                else{
+                    puntosC++;
+                }
+            }
+
+            if(objetoJugador == 'tijera'){
+                if(objetoMaquina == 'papel' || objetoMaquina == 'lagarto'){
+                    puntosJ++;
+                }
+                else{
+                    puntosC++;
+                }
+            }
+
+            if(objetoJugador == 'lagarto'){
+                if(objetoMaquina == 'papel' || objetoMaquina == 'spok'){
+                    puntosJ++;
+                }
+                else{
+                    puntosC++;
+                }
+            }
+            
+            if(objetoJugador == 'spok'){
+                if(objetoMaquina == 'piedra' || objetoMaquina == 'tijeras'){
+                    puntosJ++;
+                }
+                else{
+                    puntosC++;
+                }
+            }
+        }
+        console.log('Resultado: ' + puntosJ + '/' + puntosC);
+    }
+        //Resluatdos de la partida
+    if (puntosJ > puntosC) {
+        console.log("¡GANASTE!"); 
+} else {
+    console.log("PERDISTE"); 
+}
+
+</script>
+<body>
+    
+</body>
+</html>
