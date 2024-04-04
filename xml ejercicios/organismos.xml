@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <organismos>
+        <organismo1>
+            <nombre>
+                Organización Internacional de Normalización
+            </nombre>
+            <siglas>
+                ISO
+            </siglas>
+            <ano_fundacion>
+                1947
+            </ano_fundacion>
+            <tipo_de_organismo>
+                organnizacion no gubernamental
+            </tipo_de_organismo>
+            <tipo_de_miembros>
+                compuesta por las compañias que desarrollaron ISO
+            </tipo_de_miembros>
+            <recomendaciones>
+                <recomendacion1>
+                    usalo esta muy bien
+                </recomendacion1>
+                <recomendacion2>
+                    esta muy bien usalo
+                </recomendacion2>
+            </recomendaciones>
+        </organismo2>
+
+               <organismo1>
+            <nombre>
+               Unión Internacional de Telecomunicaciones
+            </nombre>
+            <siglas>
+                ITU
+            </siglas>
+            <ano_fundacion>
+                1865
+            </ano_fundacion>
+            <tipo_de_organismo>
+                organnizacion no gubernamental
+            </tipo_de_organismo>
+            <tipo_de_miembros>
+                compuesta por las compañias que desarrollaron ITU
+            </tipo_de_miembros>
+            <recomendaciones>
+                <recomendacion1>
+                    usalo esta muy bien
+                </recomendacion1>
+                <recomendacion2>
+                    esta muy bien usalo
+                </recomendacion2>
+            </recomendaciones>
+        </organismo2>
+    </organismos>

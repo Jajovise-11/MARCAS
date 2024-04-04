@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <novela>
+            <titulo>
+              la bestia
+            </titulo>
+            <autores>
+                <autor>
+                    Jorge Díaz
+                </autor>
+
+                <autor>
+                    Agustín Martínez
+                </autor>
+
+                <autor>
+                    Antonio Mercero
+                </autor>
+            </autores>
+            <pseudonimo>
+                Carmen Mola
+            </pseudonimo>
+            <editorial>
+                Planeta
+            </editorial>
+
+            <fecha_de_publicacion>
+                2021
+            </fecha_de_publicacion>
+
+            <genero>
+                Thriller
+            </genero>
+
+            <premios>
+                premio planeta 2021
+            </premios>
+
+            <ISBN>
+                9788408249849
+            </ISBN>
+        </novela>

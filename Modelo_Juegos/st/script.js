@@ -35,7 +35,7 @@ const story = [
     {
         text: "En el pueblo, conoces a un hombre de una etnia algo sospechosa (les gusta mucho el flamenco) qur te ofrece inhalar un poco de sus hierbas magicas ¿aceptas??",
         options: [
-            { text: "Sí", nextScene: 7 },
+            { text: "Si", nextScene: 7 },
             { text: "VAAAAAAAAAA RULATELOOOOOOOO", nextScene: 8 }
         ]
     },
